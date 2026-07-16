@@ -37,4 +37,4 @@ Day 24+ — RBAC, Polish, Testing, Deploy
 ## Notes:
 - Using SQLite locally for dev, will switch to PostgreSQL for production
 - Seed data: Himalayan Kitchen (Nepali restaurant in Shinjuku)
-- Logins: owner@himalayan.jp / test123
+- Logins: owner@himalayan.jp / admin1234 (all users same password)

@@ -21,7 +21,7 @@ async function main() {
   const owner = await prisma.user.create({
     data: {
       email: "owner@himalayan.jp",
-      passwordHash: "$2b$10$YjCdRhz/c2dDKI06xYNy3.d8QELZ3SQ5QPS3KSYq7B3kmW37UZ8UG",
+      passwordHash: "$2b$10$tfbCzePhyXLprM1lZ19VEu/Kmmn.Zxj841YEoCVmJd0tkcAGead1q",
       name: "Raju Sharma",
       role: "Owner",
       restaurantId: restaurant.id,
@@ -30,9 +30,9 @@ async function main() {
 
   await prisma.user.createMany({
     data: [
-      { email: "manager@himalayan.jp", passwordHash: "$2b$10$YjCdRhz/c2dDKI06xYNy3.d8QELZ3SQ5QPS3KSYq7B3kmW37UZ8UG", name: "Sita Gurung", role: "Manager", restaurantId: restaurant.id },
-      { email: "cashier@himalayan.jp", passwordHash: "$2b$10$YjCdRhz/c2dDKI06xYNy3.d8QELZ3SQ5QPS3KSYq7B3kmW37UZ8UG", name: "Binod Thapa", role: "Cashier", restaurantId: restaurant.id },
-      { email: "waiter@himalayan.jp", passwordHash: "$2b$10$YjCdRhz/c2dDKI06xYNy3.d8QELZ3SQ5QPS3KSYq7B3kmW37UZ8UG", name: "Anita Tamang", role: "Waiter", restaurantId: restaurant.id },
+      { email: "manager@himalayan.jp", passwordHash: "$2b$10$tfbCzePhyXLprM1lZ19VEu/Kmmn.Zxj841YEoCVmJd0tkcAGead1q", name: "Sita Gurung", role: "Manager", restaurantId: restaurant.id },
+      { email: "cashier@himalayan.jp", passwordHash: "$2b$10$tfbCzePhyXLprM1lZ19VEu/Kmmn.Zxj841YEoCVmJd0tkcAGead1q", name: "Binod Thapa", role: "Cashier", restaurantId: restaurant.id },
+      { email: "waiter@himalayan.jp", passwordHash: "$2b$10$tfbCzePhyXLprM1lZ19VEu/Kmmn.Zxj841YEoCVmJd0tkcAGead1q", name: "Anita Tamang", role: "Waiter", restaurantId: restaurant.id },
     ],
   });
 
