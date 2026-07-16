@@ -1,7 +1,7 @@
 # RMS Project Status
 
-## Current Day: Day 3
-## Phase: Foundation & Setup
+## Current Day: Day 5
+## Phase: Core Features
 ## Status: In progress
 
 ## Target: Nepali restaurants in Japan
@@ -12,10 +12,21 @@
 - EU allergen labels (14 allergens), 10% consumption tax
 
 ## Last Completed Task:
-Day 2 — Database schema + Prisma + Nepali seed data
+Day 4 — Backend Auth Module (register, login, JWT, roles guard)
 
-## Next Task:
-Day 3 — Connect to Neon.tech/Supabase PostgreSQL (remote DB)
+## Current Task:
+Day 5 — Frontend Auth Setup (login page, auth context, protected routes)
+
+## Next Tasks:
+Day 6 — Restaurant Profile CRUD
+Day 8-9 — Menu Module (Nepali dishes with allergens)
+Day 10-11 — Table Management
+Day 12-14 — Order Module (course-based)
+Day 15-17 — Socket.IO + Kitchen Display
+Day 18-19 — Billing & Invoices (JPY, 10% tax)
+Day 20-21 — Inventory
+Day 22-23 — Reports Dashboard
+Day 24+ — RBAC, Polish, Testing, Deploy
 
 ## Deployment Target (Beginner-friendly):
 - Frontend: **Cloudflare Pages** (auto-deploy from GitHub)
@@ -26,3 +37,4 @@ Day 3 — Connect to Neon.tech/Supabase PostgreSQL (remote DB)
 ## Notes:
 - Using SQLite locally for dev, will switch to PostgreSQL for production
 - Seed data: Himalayan Kitchen (Nepali restaurant in Shinjuku)
+- Logins: owner@himalayan.jp / test123
