@@ -7,11 +7,11 @@ Target: Working product for real restaurant feedback.
 - Staff roles (Owner, Manager, Cashier, Waiter)
 - Restaurant profile setup
 - Table management (floor map with indoor + terrace areas)
-- Menu management (categories, items, **allergens**, **wine list**, **course types**, set menus)
+- Menu management (**Nepali cuisine**: momo, dal bhat, chhoila, thukpa, etc. with **allergens**, **course types**, set menus)
 - Take orders (course-based: starter → main → dessert, **cover count**)
 - Kitchen Display System (real-time via Socket.IO, course-sequential firing)
-- Generate bills (**VAT breakdown**, **service charge**, split by cover, JPY format ¥1,234)
-- Payment methods: Cash, Contactless/NFC, Card, **Meal Vouchers**, **Bancontact/iDEAL**
+- Generate bills (**10% consumption tax**, split by cover, JPY format ¥1,234)
+- Payment methods: Cash, **Suica/Pasmo (IC)**, Card, **QR Pay (PayPay, LINE Pay)**
 - Basic inventory (stock tracking, auto-deduct, low-stock alerts)
 - Sales dashboard with **VAT report** + **average cover value**
 - Basic CI (lint + test on PR)

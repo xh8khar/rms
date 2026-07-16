@@ -2,14 +2,15 @@
 
 > **Scope:** Version 1 per `versions.md` | 42 Days | 4 Roles | 9 Features
 > **Goal:** Working product for real restaurant feedback
-> **Style:** European restaurant design — minimalist elegance, EU terminology, VAT/service charge, allergen labels, 24h time, DD/MM/YYYY, JPY default currency
+> **Style:** Nepali restaurant in Japan — Nepali cuisine, JPY currency, Japanese address/location, EU allergen labels, 24h time, DD/MM/YYYY
 
-## European Style — Design Philosophy
-- **Aesthetic:** Minimalist, clean, sophisticated. Whites, muted earth tones, serif headings, generous whitespace. Think Scandinavian / Milanese.
-- **Terminology:** "Bill" not "check", "Starter" not "appetizer", "Main course" not "entree", "Cover" for guest count. "Service charge" (included, not tip).
-- **Compliance:** EU allergen labeling (14 allergens), VAT breakdown (standard/reduced), nutritional info on menu.
-- **Formatting:** JPY default currency (¥1,234 — no decimals), DD/MM/YYYY dates, 24-hour time, metric units.
-- **Payments:** Contactless/NFC, meal vouchers (Ticket Restaurant), Bancontact/iDEAL as options.
+## Restaurant Style — Design Philosophy
+- **Cuisine:** Nepali dishes (momo, dal bhat, chhoila, sekuwa, thukpa, etc.)
+- **Location:** Tokyo / Japan — Japanese addresses, JPY currency (¥1,234 — no decimals), 10% consumption tax
+- **Terminology:** "Bill" not "check", "Starter" not "appetizer", "Cover" for guest count. Service charge usually 0% (common in Japan).
+- **Compliance:** EU allergen labeling (14 allergens) for international customers, consumption tax (10%) on bills.
+- **Formatting:** JPY currency (¥1,234 — no decimals), DD/MM/YYYY dates, 24-hour time, metric units.
+- **Payments:** Cash, Contactless/NFC (Suica/Pasmo), Card, QR Pay (PayPay, LINE Pay).
 - **Service flow:** Course-based ordering (starter → main → dessert), sequential kitchen firing.
 
 ---

@@ -1,25 +1,21 @@
 # RMS Project Status
 
-<!-- Update this file before closing the session -->
-
-## Current Day: Day 1 ✅
+## Current Day: Day 3
 ## Phase: Foundation & Setup
-## Status: Completed
+## Status: In progress
 
-## Last Completed Task:
-Day 1 — Project Scaffolding
-
-## Style: European Restaurant
+## Target: Nepali restaurants in Japan
+- Menu: Nepali cuisine (momo, dal bhat, chhoila, sekuwa, etc.)
+- Currency: JPY (¥1,234 — no decimals)
+- Location: Tokyo / Japan
 - Course-based ordering (starter → main → dessert)
-- EU allergen labels, VAT breakdown, service charge included
-- JPY default currency (¥1,234 — no decimals), DD/MM/YYYY, 24h time
-- Minimalist European design aesthetic
+- EU allergen labels (14 allergens), 10% consumption tax
 
 ## Last Completed Task:
-<!-- e.g. Day 4 — Backend Auth Module -->
+Day 2 — Database schema + Prisma + Nepali seed data
 
 ## Next Task:
-<!-- e.g. Day 5 — Frontend Auth Setup -->
+Day 3 — Connect to Neon.tech/Supabase PostgreSQL (remote DB)
 
 ## Deployment Target (Beginner-friendly):
 - Frontend: **Cloudflare Pages** (auto-deploy from GitHub)
@@ -28,4 +24,5 @@ Day 1 — Project Scaffolding
 - Domain: Cloudflare DNS
 
 ## Notes:
-<!-- Anything to remember for next session -->
+- Using SQLite locally for dev, will switch to PostgreSQL for production
+- Seed data: Himalayan Kitchen (Nepali restaurant in Shinjuku)
