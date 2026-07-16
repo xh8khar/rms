@@ -20,8 +20,8 @@ async function main() {
 
   const owner = await prisma.user.create({
     data: {
-      email: "owner@himalayan.jp",
-      passwordHash: "$2b$10$tfbCzePhyXLprM1lZ19VEu/Kmmn.Zxj841YEoCVmJd0tkcAGead1q",
+      email: "admin",
+      passwordHash: "$2b$10$GnyOz6R8WwNSXjrdb7NDWu34aFO5hEZWuLxYrqeai/om9YMHj3UQO",
       name: "Raju Sharma",
       role: "Owner",
       restaurantId: restaurant.id,
@@ -30,9 +30,9 @@ async function main() {
 
   await prisma.user.createMany({
     data: [
-      { email: "manager@himalayan.jp", passwordHash: "$2b$10$tfbCzePhyXLprM1lZ19VEu/Kmmn.Zxj841YEoCVmJd0tkcAGead1q", name: "Sita Gurung", role: "Manager", restaurantId: restaurant.id },
-      { email: "cashier@himalayan.jp", passwordHash: "$2b$10$tfbCzePhyXLprM1lZ19VEu/Kmmn.Zxj841YEoCVmJd0tkcAGead1q", name: "Binod Thapa", role: "Cashier", restaurantId: restaurant.id },
-      { email: "waiter@himalayan.jp", passwordHash: "$2b$10$tfbCzePhyXLprM1lZ19VEu/Kmmn.Zxj841YEoCVmJd0tkcAGead1q", name: "Anita Tamang", role: "Waiter", restaurantId: restaurant.id },
+      { email: "manager@himalayan.jp", passwordHash: "$2b$10$GnyOz6R8WwNSXjrdb7NDWu34aFO5hEZWuLxYrqeai/om9YMHj3UQO", name: "Sita Gurung", role: "Manager", restaurantId: restaurant.id },
+      { email: "cashier@himalayan.jp", passwordHash: "$2b$10$GnyOz6R8WwNSXjrdb7NDWu34aFO5hEZWuLxYrqeai/om9YMHj3UQO", name: "Binod Thapa", role: "Cashier", restaurantId: restaurant.id },
+      { email: "waiter@himalayan.jp", passwordHash: "$2b$10$GnyOz6R8WwNSXjrdb7NDWu34aFO5hEZWuLxYrqeai/om9YMHj3UQO", name: "Anita Tamang", role: "Waiter", restaurantId: restaurant.id },
     ],
   });
 
@@ -322,7 +322,7 @@ async function main() {
 
   console.log("✅ Seed completed successfully!");
   console.log(`   Restaurant: Himalayan Kitchen (Shinjuku, Tokyo)`);
-  console.log(`   Login: owner@himalayan.jp`);
+  console.log(`   Login: admin`);
 }
 
 main()
