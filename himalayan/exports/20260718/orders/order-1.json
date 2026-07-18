@@ -1,0 +1,112 @@
+{
+  "id": 1,
+  "status": "Confirmed",
+  "coverCount": 1,
+  "notes": null,
+  "createdAt": "2026-07-18T13:47:50.824Z",
+  "updatedAt": "2026-07-18T13:47:50.824Z",
+  "restaurantId": 1,
+  "tableId": 10,
+  "createdById": 1,
+  "table": {
+    "id": 10,
+    "number": "10",
+    "capacity": 4,
+    "section": "Main Hall",
+    "status": "Available",
+    "createdAt": "2026-07-18T13:46:22.215Z",
+    "updatedAt": "2026-07-18T13:46:22.215Z",
+    "restaurantId": 1
+  },
+  "createdBy": {
+    "id": 1,
+    "name": "Raju Sharma",
+    "email": "admin"
+  },
+  "items": [
+    {
+      "id": 1,
+      "quantity": 1,
+      "price": 1200,
+      "courseType": "Main",
+      "status": "Pending",
+      "orderId": 1,
+      "menuItemId": 2,
+      "modifiers": null,
+      "menuItem": {
+        "id": 2,
+        "name": "Chhoila",
+        "description": "Spiced grilled buffalo meat with herbs, mustard oil & green chillies",
+        "price": 1200,
+        "courseType": "Starter",
+        "isAvailable": true,
+        "image": null,
+        "isWine": false,
+        "wineVintage": null,
+        "wineRegion": null,
+        "wineAppellation": null,
+        "wineGrape": null,
+        "createdAt": "2026-07-18T13:46:22.190Z",
+        "updatedAt": "2026-07-18T13:46:22.190Z",
+        "categoryId": 1,
+        "restaurantId": 1
+      }
+    },
+    {
+      "id": 2,
+      "quantity": 1,
+      "price": 550,
+      "courseType": "Main",
+      "status": "Pending",
+      "orderId": 1,
+      "menuItemId": 17,
+      "modifiers": null,
+      "menuItem": {
+        "id": 17,
+        "name": "Mango Lassi",
+        "description": "Creamy yogurt drink blended with Alphonso mango",
+        "price": 550,
+        "courseType": "Beverage",
+        "isAvailable": true,
+        "image": null,
+        "isWine": false,
+        "wineVintage": null,
+        "wineRegion": null,
+        "wineAppellation": null,
+        "wineGrape": null,
+        "createdAt": "2026-07-18T13:46:22.204Z",
+        "updatedAt": "2026-07-18T13:46:22.204Z",
+        "categoryId": 4,
+        "restaurantId": 1
+      }
+    },
+    {
+      "id": 3,
+      "quantity": 1,
+      "price": 650,
+      "courseType": "Main",
+      "status": "Pending",
+      "orderId": 1,
+      "menuItemId": 12,
+      "modifiers": null,
+      "menuItem": {
+        "id": 12,
+        "name": "Gundruk",
+        "description": "Fermented leafy greens stir-fried with garlic & chillies (vegan)",
+        "price": 650,
+        "courseType": "Main",
+        "isAvailable": true,
+        "image": null,
+        "isWine": false,
+        "wineVintage": null,
+        "wineRegion": null,
+        "wineAppellation": null,
+        "wineGrape": null,
+        "createdAt": "2026-07-18T13:46:22.200Z",
+        "updatedAt": "2026-07-18T13:46:22.200Z",
+        "categoryId": 5,
+        "restaurantId": 1
+      }
+    }
+  ]
+}
