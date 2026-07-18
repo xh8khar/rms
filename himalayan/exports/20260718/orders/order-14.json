@@ -1,0 +1,84 @@
+{
+  "id": 14,
+  "status": "Confirmed",
+  "coverCount": 1,
+  "notes": null,
+  "createdAt": "2026-07-18T13:36:15.142Z",
+  "updatedAt": "2026-07-18T13:36:15.142Z",
+  "restaurantId": 1,
+  "tableId": 2,
+  "createdById": 1,
+  "table": {
+    "id": 2,
+    "number": "2",
+    "capacity": 2,
+    "section": "Window",
+    "status": "Available",
+    "createdAt": "2026-07-18T12:36:29.281Z",
+    "updatedAt": "2026-07-18T12:54:18.261Z",
+    "restaurantId": 1
+  },
+  "createdBy": {
+    "id": 1,
+    "name": "Raju Sharma",
+    "email": "admin"
+  },
+  "items": [
+    {
+      "id": 44,
+      "quantity": 2,
+      "price": 880,
+      "courseType": "Starter",
+      "status": "Pending",
+      "orderId": 14,
+      "menuItemId": 1,
+      "modifiers": null,
+      "menuItem": {
+        "id": 1,
+        "name": "Momo (Steamed Dumplings)",
+        "description": "Traditional Nepali dumplings filled with spiced chicken, served with achar",
+        "price": 880,
+        "courseType": "Starter",
+        "isAvailable": true,
+        "image": null,
+        "isWine": false,
+        "wineVintage": null,
+        "wineRegion": null,
+        "wineAppellation": null,
+        "wineGrape": null,
+        "createdAt": "2026-07-18T12:36:29.256Z",
+        "updatedAt": "2026-07-18T12:36:29.256Z",
+        "categoryId": 1,
+        "restaurantId": 1
+      }
+    },
+    {
+      "id": 45,
+      "quantity": 1,
+      "price": 1500,
+      "courseType": "Main",
+      "status": "Pending",
+      "orderId": 14,
+      "menuItemId": 4,
+      "modifiers": null,
+      "menuItem": {
+        "id": 4,
+        "name": "Dal Bhat",
+        "description": "Nepali national dish — lentil soup, steamed rice, vegetable curry, pickles & papad",
+        "price": 1500,
+        "courseType": "Main",
+        "isAvailable": true,
+        "image": null,
+        "isWine": false,
+        "wineVintage": null,
+        "wineRegion": null,
+        "wineAppellation": null,
+        "wineGrape": null,
+        "createdAt": "2026-07-18T12:36:29.259Z",
+        "updatedAt": "2026-07-18T12:36:29.259Z",
+        "categoryId": 2,
+        "restaurantId": 1
+      }
+    }
+  ]
+}
